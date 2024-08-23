@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Básico</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+    <form action="/submit" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <legend>Sexo</legend>
+        <label>
+            <input type="radio" name="Sexo" value="Hombre"> Hombre
+        </label><br>
+        <label>
+            <input type="radio" name="sexo" value="Mujer"> Mujer
+        </label><br><br>
+        <legend>Año de Nacimiento</legend>
+        <select name="" id=""><br>
+            <option value="seleccione una opcion"></option>
+            <option value="#">2000</option>
+            <option value="#">2001</option>
+            <option value="#">2002</option>
+        </select><br><br>
+        ¿Acepta terminos y condiciones?<input type="checkbox" name="a" value="H"><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
